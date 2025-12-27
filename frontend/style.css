@@ -1,0 +1,24 @@
+
+body {
+  background:#020617;
+  color:#e5e7eb;
+  font-family:system-ui;
+  padding:2rem;
+}
+.card {
+  background:#0f172a;
+  padding:1.5rem;
+  margin-bottom:1.5rem;
+  border-radius:1rem;
+}
+input,button {
+  width:100%;
+  margin:.5rem 0;
+  padding:.7rem;
+  border-radius:.6rem;
+  border:none;
+}
+button {
+  background:#38bdf8;
+  font-weight:600;
+}

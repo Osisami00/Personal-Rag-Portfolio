@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI RAG Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Personal AI RAG Portfolio</h1>
+
+<div class="card">
+  <input type="file" id="cv">
+  <input type="text" id="repo" placeholder="GitHub repo link">
+  <button onclick="ingest()">Build Knowledge</button>
+</div>
+
+<div class="card">
+  <div id="chat"></div>
+  <input id="q" placeholder="Ask about me">
+  <button onclick="ask()">Ask</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
